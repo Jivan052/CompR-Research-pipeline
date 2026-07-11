@@ -281,7 +281,7 @@ footer a{color:var(--cyan);}
       <div class="flow-step">
         <div class="fnum">STAGE 2</div>
         <h4>Deep research agent</h4>
-        <p>Claude (Sonnet) with the <code>web_search</code> server tool, one call per app, forced into a strict JSON schema: auth, gating, API surface, MCP status, buildability verdict, evidence URL, and a self-reported confidence score.</p>
+        <p>Openrouter API with the <code>web_search</code> server tool, one call per app, forced into a strict JSON schema: auth, gating, API surface, MCP status, buildability verdict, evidence URL, and a self-reported confidence score.</p>
       </div>
       <div class="flow-step">
         <div class="fnum">STAGE 3</div>
@@ -302,10 +302,10 @@ info = client.toolkits.get("klaviyo")<br>
 <span class="c"># → auth_config_details, category, tool count — straight from Composio's own catalog</span></div>
 
     <div class="code-block"><span class="c"># Stage 2 — two interchangeable backends, auto-selected from whichever key is set</span><br>
-<span class="c"># Backend A: Anthropic direct, Claude's native web_search tool</span><br>
+<span class="c"># Backend Option A: Anthropic direct, Claude's native web_search tool</span><br>
 resp = client.messages.create(model="claude-sonnet-4-6",<br>
 &nbsp;&nbsp;tools=[{"type": "web_search_20250305", "name": "web_search"}], ...)<br><br>
-<span class="c"># Backend B: OpenRouter — works across any tool-calling model on one API/key</span><br>
+<span class="c"># Backend Option B: OpenRouter — works across any tool-calling model on one API/key</span><br>
 requests.post("https://openrouter.ai/api/v1/chat/completions", json={<br>
 &nbsp;&nbsp;"model": "anthropic/claude-sonnet-4.5",<br>
 &nbsp;&nbsp;"tools": [{"type": "openrouter:web_search"}], ...})</div>
