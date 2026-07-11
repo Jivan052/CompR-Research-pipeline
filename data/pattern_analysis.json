@@ -6,9 +6,8 @@
     "API key/token + Basic": 4,
     "API key/token + Basic + OAuth2": 3,
     "Basic": 2,
-    "No hosted API": 2,
-    "Basic + OAuth2": 1,
-    "Undocumented": 1
+    "none": 3,
+    "Basic + OAuth2": 1
   },
   "self_serve": {
     "True": 78,
@@ -89,14 +88,5 @@
       "ready": 4,
       "mcp": 5
     }
-  },
-  "blocker_reasons": {
-    "Other": 5,
-    "Enterprise contact-sales gate": 6,
-    "App/developer review or approval gate": 9,
-    "API locked behind paid plan tier": 10,
-    "Not actually a hosted API (local tool/script)": 3,
-    "No public docs findable": 1,
-    "Requires existing paid/business account": 2
   }
 }

@@ -59,7 +59,7 @@ def log_call(app_name, backend, model, request_meta, response_meta, elapsed_s, o
     cross-check against your own OpenRouter/Anthropic usage dashboard."""
     import datetime
     record = {
-        "timestamp": datetime.datetime.utcnow().isoformat() + "Z",
+        "timestamp": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "app": app_name,
         "backend": backend,
         "model": model,
@@ -211,8 +211,28 @@ def main():
     results = {}
     if OUT_FILE.exists():
         try:
-            results = json.loads(OUT_FILE.read_text())
+            loaded = json.loads(OUT_FILE.read_text())
         except json.JSONDecodeError:
+            loaded = {}
+        if isinstance(loaded, dict):
+            results = loaded
+        elif isinstance(loaded, list):
+            # Older/alternate format: a list of result objects, each
+            # presumably carrying its own app name. Normalize to the
+            # dict-keyed-by-name format this script relies on.
+            normalized = {}
+            for item in loaded:
+                if not isinstance(item, dict):
+                    continue
+                item_name = item.get("name") or item.get("app") or item.get("app_name")
+                if item_name:
+                    normalized[item_name] = item
+                else:
+                    print(f"  warning: skipping malformed entry in {OUT_FILE} "
+                          f"(no name/app/app_name key): {item}")
+            results = normalized
+        else:
+            print(f"  warning: unexpected type in {OUT_FILE} ({type(loaded).__name__}); starting fresh")
             results = {}
 
     for app in apps:
