@@ -1,4 +1,4 @@
-# Composio Toolkit Research — 100 Apps
+# CompR: Realtime research pipeline — 100 Apps
 
 > **Important — read this first.** The `data/research_results.json` shipped in this repo
 > was **not** produced by running `run_pipeline.py`. It was produced by directly
