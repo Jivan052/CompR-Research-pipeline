@@ -1,0 +1,1643 @@
+[
+  {
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "one_liner": "Enterprise CRM for sales, service, and marketing",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Free Developer Edition org self-serve at developer.salesforce.com",
+    "api_surface": "REST + SOAP + Bulk + GraphQL, very broad (thousands of objects/endpoints)",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.salesforce.com/docs/apis",
+    "confidence": "high"
+  },
+  {
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "one_liner": "CRM + marketing/sales/service hub",
+    "auth": [
+      "OAuth2",
+      "API key (private app token)"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve, private app tokens instant",
+    "api_surface": "REST, broad, well documented",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.hubspot.com/docs/api/overview",
+    "confidence": "high"
+  },
+  {
+    "name": "Pipedrive",
+    "category": "CRM and Sales",
+    "one_liner": "Sales pipeline CRM",
+    "auth": [
+      "API key (token)",
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "14-day free trial, API token instant",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.pipedrive.com/docs/api/v1",
+    "confidence": "high"
+  },
+  {
+    "name": "Attio",
+    "category": "CRM and Sales",
+    "one_liner": "Modern flexible CRM",
+    "auth": [
+      "API key (Bearer)"
+    ],
+    "self_serve": true,
+    "gating": "Free plan self-serve",
+    "api_surface": "REST, moderate breadth",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.attio.com/reference",
+    "confidence": "high"
+  },
+  {
+    "name": "Twenty",
+    "category": "CRM and Sales",
+    "one_liner": "Open-source CRM",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Open source, self-host or free cloud tier",
+    "api_surface": "REST + GraphQL, growing",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://twenty.com/developers",
+    "confidence": "medium"
+  },
+  {
+    "name": "Podio",
+    "category": "CRM and Sales",
+    "one_liner": "Customizable work/CRM platform (Citrix)",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve, app largely in maintenance mode",
+    "api_surface": "REST, broad but dated docs",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Platform is legacy/lightly maintained, docs inconsistent",
+    "evidence": "https://developers.podio.com/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "one_liner": "CRM within the Zoho suite",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Free trial self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://www.zoho.com/crm/developer/docs/api/v6/",
+    "confidence": "high"
+  },
+  {
+    "name": "Close",
+    "category": "CRM and Sales",
+    "one_liner": "Inside-sales CRM with calling/email built in",
+    "auth": [
+      "API key (Basic)"
+    ],
+    "self_serve": true,
+    "gating": "14-day free trial",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.close.com/",
+    "confidence": "high"
+  },
+  {
+    "name": "Copper",
+    "category": "CRM and Sales",
+    "one_liner": "CRM built for Google Workspace",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "14-day free trial",
+    "api_surface": "REST, moderate",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.copper.com/",
+    "confidence": "high"
+  },
+  {
+    "name": "DealCloud",
+    "category": "CRM and Sales",
+    "one_liner": "CRM/deal management for PE, M&A, banking",
+    "auth": [
+      "OAuth2 (client credentials)"
+    ],
+    "self_serve": false,
+    "gating": "Requires an existing DealCloud client site + admin-granted API key; no public trial signup",
+    "api_surface": "REST, broad; MCP server in client preview as of July 2026",
+    "existing_mcp": true,
+    "verdict": "Blocked",
+    "blocker": "No self-serve account; must already be a paying DealCloud customer with admin access",
+    "evidence": "https://api.docs.dealcloud.com/docs/apikeys",
+    "confidence": "high"
+  },
+  {
+    "name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Customer service/ticketing platform",
+    "auth": [
+      "OAuth2",
+      "API token (Basic)"
+    ],
+    "self_serve": true,
+    "gating": "Free trial self-serve",
+    "api_surface": "REST, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.zendesk.com/api-reference/",
+    "confidence": "high"
+  },
+  {
+    "name": "Intercom",
+    "category": "Support and Helpdesk",
+    "one_liner": "Customer messaging and support platform",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "14-day free trial",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.intercom.com/docs/references/rest-api/",
+    "confidence": "high"
+  },
+  {
+    "name": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "one_liner": "Helpdesk/ticketing software",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free trial self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.freshdesk.com/api/",
+    "confidence": "high"
+  },
+  {
+    "name": "Front",
+    "category": "Support and Helpdesk",
+    "one_liner": "Shared inbox / customer comms platform",
+    "auth": [
+      "OAuth2",
+      "API token"
+    ],
+    "self_serve": true,
+    "gating": "Trial available, but core plans are paid",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://dev.frontapp.com/",
+    "confidence": "high"
+  },
+  {
+    "name": "Pylon",
+    "category": "Support and Helpdesk",
+    "one_liner": "B2B support/ticketing over Slack/Teams/Discord",
+    "auth": [
+      "API key (Bearer)"
+    ],
+    "self_serve": true,
+    "gating": "Requires a Pylon workspace; token generated in dashboard, pricing not fully self-serve-transparent",
+    "api_surface": "REST, moderate-broad; Pylon MCP already exists",
+    "existing_mcp": true,
+    "verdict": "Ready with friction",
+    "blocker": "Onboarding leans sales-assisted even though token generation itself is self-serve",
+    "evidence": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+    "confidence": "high"
+  },
+  {
+    "name": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "one_liner": "Multichannel helpdesk software",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free trial self-serve",
+    "api_surface": "REST, moderate",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://www.liveagent.com/dev/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Plain",
+    "category": "Support and Helpdesk",
+    "one_liner": "B2B support tool built API-first",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "GraphQL, well documented",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://www.plain.com/docs/api-reference",
+    "confidence": "medium"
+  },
+  {
+    "name": "Help Scout",
+    "category": "Support and Helpdesk",
+    "one_liner": "Simple shared-inbox helpdesk",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "15-day free trial",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.helpscout.com/",
+    "confidence": "high"
+  },
+  {
+    "name": "Gorgias",
+    "category": "Support and Helpdesk",
+    "one_liner": "Helpdesk built for ecommerce",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "7-day free trial",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.gorgias.com/",
+    "confidence": "high"
+  },
+  {
+    "name": "Gladly",
+    "category": "Support and Helpdesk",
+    "one_liner": "Enterprise customer-service platform",
+    "auth": [
+      "API key (Basic)"
+    ],
+    "self_serve": false,
+    "gating": "No public trial/signup; enterprise contact-sales product",
+    "api_surface": "REST, moderate, docs behind limited public access",
+    "existing_mcp": false,
+    "verdict": "Blocked",
+    "blocker": "Contact-sales enterprise gate, no free/trial credentials path",
+    "evidence": "https://developer.gladly.com/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Slack",
+    "category": "Communications and Messaging",
+    "one_liner": "Team chat and workflow platform",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Free workspace self-serve",
+    "api_surface": "REST + Events API, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://api.slack.com/",
+    "confidence": "high"
+  },
+  {
+    "name": "Twilio",
+    "category": "Communications and Messaging",
+    "one_liner": "Programmable SMS/voice/video APIs",
+    "auth": [
+      "API key (Basic: SID+token)"
+    ],
+    "self_serve": true,
+    "gating": "Free trial credit self-serve",
+    "api_surface": "REST, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://www.twilio.com/docs/usage/api",
+    "confidence": "high"
+  },
+  {
+    "name": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "one_liner": "Team chat app in the Zoho suite",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, moderate",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://www.zoho.com/cliq/help/platform/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "one_liner": "All-in-one collaboration suite (ByteDance)",
+    "auth": [
+      "OAuth2",
+      "App credentials"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, very broad (docs, base, messaging, calendar)",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://open.larksuite.com/document",
+    "confidence": "medium"
+  },
+  {
+    "name": "Pumble",
+    "category": "Communications and Messaging",
+    "one_liner": "Team chat app (Slack alternative)",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free plan, but public API is limited/early",
+    "api_surface": "REST, narrow (mostly webhooks + basic messaging)",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Public API surface is thin compared to Slack/Discord equivalents",
+    "evidence": "https://pumble.com/help/integrations/",
+    "confidence": "low"
+  },
+  {
+    "name": "Discord",
+    "category": "Communications and Messaging",
+    "one_liner": "Community chat/voice platform",
+    "auth": [
+      "OAuth2",
+      "Bot token"
+    ],
+    "self_serve": true,
+    "gating": "Free, instant bot token",
+    "api_surface": "REST + Gateway, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://discord.com/developers/docs/intro",
+    "confidence": "high"
+  },
+  {
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "one_liner": "Messaging app with a public bot platform",
+    "auth": [
+      "Bot token"
+    ],
+    "self_serve": true,
+    "gating": "Free, instant via BotFather",
+    "api_surface": "Bot API, broad for messaging",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://core.telegram.org/bots/api",
+    "confidence": "high"
+  },
+  {
+    "name": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "one_liner": "Business messaging on WhatsApp (Meta)",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": false,
+    "gating": "Requires Meta Business verification + WABA setup; not instant self-serve",
+    "api_surface": "REST (Cloud API), broad",
+    "existing_mcp": true,
+    "verdict": "Ready with friction",
+    "blocker": "Business verification and phone number registration required before use",
+    "evidence": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+    "confidence": "high"
+  },
+  {
+    "name": "Aircall",
+    "category": "Communications and Messaging",
+    "one_liner": "Cloud call center / business phone system",
+    "auth": [
+      "OAuth2",
+      "API key (Basic)"
+    ],
+    "self_serve": true,
+    "gating": "Free trial self-serve",
+    "api_surface": "REST, moderate",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.aircall.io/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Vonage",
+    "category": "Communications and Messaging",
+    "one_liner": "Communications APIs (SMS, voice, video)",
+    "auth": [
+      "API key + secret"
+    ],
+    "self_serve": true,
+    "gating": "Free trial credit self-serve",
+    "api_surface": "REST, very broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.vonage.com/en/documentation",
+    "confidence": "high"
+  },
+  {
+    "name": "Google Ads",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "Google's search/display ad platform API",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": false,
+    "gating": "Requires a developer token from Google, basic access approved fast but standard access needs review",
+    "api_surface": "REST + gRPC, very broad",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Developer token approval gate before higher API access tiers",
+    "evidence": "https://developers.google.com/google-ads/api/docs/start",
+    "confidence": "high"
+  },
+  {
+    "name": "Meta Ads",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "Facebook/Instagram ads management API",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": false,
+    "gating": "App Review required for most marketing permissions beyond dev mode",
+    "api_surface": "REST (Graph API), very broad",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Meta App Review needed for production-level ad permissions",
+    "evidence": "https://developers.facebook.com/docs/marketing-apis/",
+    "confidence": "high"
+  },
+  {
+    "name": "LinkedIn Ads",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "LinkedIn's advertising API",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": false,
+    "gating": "Marketing API requires LinkedIn Partner Program approval",
+    "api_surface": "REST, broad but access-gated",
+    "existing_mcp": false,
+    "verdict": "Blocked",
+    "blocker": "Partner program application/approval required, not self-serve",
+    "evidence": "https://learn.microsoft.com/en-us/linkedin/marketing/",
+    "confidence": "high"
+  },
+  {
+    "name": "GoHighLevel",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "All-in-one sales/marketing platform for agencies",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Trial via agency account signup",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://highlevel.stoplight.io/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Mailchimp",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "Email marketing and automation platform",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://mailchimp.com/developer/marketing/api/",
+    "confidence": "high"
+  },
+  {
+    "name": "Klaviyo",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "Email/SMS marketing for ecommerce",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.klaviyo.com/en/reference/api_overview",
+    "confidence": "high"
+  },
+  {
+    "name": "systeme.io",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "Funnel builder / all-in-one marketing suite",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free plan self-serve",
+    "api_surface": "REST, narrow",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.systeme.io/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Pinterest",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "Visual discovery/social platform ads+content API",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Standard access self-serve; advanced ad scopes need app review",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Advanced scopes gated behind Pinterest app review",
+    "evidence": "https://developers.pinterest.com/docs/getting-started/introduction/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Threads (Meta)",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "Meta's text-based social app API",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": false,
+    "gating": "Meta App Review required, API surface still limited",
+    "api_surface": "REST, narrow (publishing + basic insights)",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Meta App Review + limited scope of what the API exposes",
+    "evidence": "https://developers.facebook.com/docs/threads",
+    "confidence": "medium"
+  },
+  {
+    "name": "SendGrid",
+    "category": "Marketing Ads Email Social",
+    "one_liner": "Transactional/marketing email delivery API",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://www.twilio.com/docs/sendgrid/api-reference",
+    "confidence": "high"
+  },
+  {
+    "name": "Shopify",
+    "category": "Ecommerce",
+    "one_liner": "Ecommerce storefront and admin platform",
+    "auth": [
+      "OAuth2",
+      "API key (custom apps)"
+    ],
+    "self_serve": true,
+    "gating": "Free dev store self-serve",
+    "api_surface": "REST + GraphQL Admin API, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://shopify.dev/docs/api",
+    "confidence": "high"
+  },
+  {
+    "name": "WooCommerce",
+    "category": "Ecommerce",
+    "one_liner": "WordPress ecommerce plugin",
+    "auth": [
+      "API key (Basic: consumer key/secret)"
+    ],
+    "self_serve": true,
+    "gating": "Self-hosted, free once you have a WordPress store",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+    "confidence": "high"
+  },
+  {
+    "name": "BigCommerce",
+    "category": "Ecommerce",
+    "one_liner": "SaaS ecommerce platform",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free trial self-serve",
+    "api_surface": "REST + GraphQL (Storefront), broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.bigcommerce.com/docs/rest-management",
+    "confidence": "high"
+  },
+  {
+    "name": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "one_liner": "Enterprise ecommerce platform (Salesforce)",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": false,
+    "gating": "Enterprise product, requires existing SFCC org / contact sales",
+    "api_surface": "REST + SCAPI, broad",
+    "existing_mcp": false,
+    "verdict": "Blocked",
+    "blocker": "No free self-serve org; requires an existing enterprise instance",
+    "evidence": "https://developer.salesforce.com/docs/commerce",
+    "confidence": "medium"
+  },
+  {
+    "name": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "one_liner": "Ecommerce platform, open-source core + Adobe enterprise tier",
+    "auth": [
+      "OAuth2",
+      "API key/token"
+    ],
+    "self_serve": true,
+    "gating": "Open-source edition self-hostable free; Adobe Commerce (enterprise) is contact-sales",
+    "api_surface": "REST + GraphQL, broad",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Two-tier product: OSS self-serve, Adobe Commerce enterprise gated",
+    "evidence": "https://developer.adobe.com/commerce/webapi/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Squarespace",
+    "category": "Ecommerce",
+    "one_liner": "Website builder with commerce features",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Commerce API requires a paid Commerce plan",
+    "api_surface": "REST, narrow",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Requires a paid Commerce-tier subscription to unlock the API",
+    "evidence": "https://developers.squarespace.com/commerce-apis/overview",
+    "confidence": "medium"
+  },
+  {
+    "name": "Ecwid",
+    "category": "Ecommerce",
+    "one_liner": "Embeddable ecommerce storefront",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Free plan self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://api-docs.ecwid.com/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Gumroad",
+    "category": "Ecommerce",
+    "one_liner": "Creator storefront for digital products",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free account self-serve",
+    "api_surface": "REST, moderate",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://help.gumroad.com/article/280-api",
+    "confidence": "high"
+  },
+  {
+    "name": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "one_liner": "API for Amazon marketplace sellers",
+    "auth": [
+      "OAuth2 (LWA)"
+    ],
+    "self_serve": false,
+    "gating": "Requires an approved Amazon Seller account + registered SP-API app; review process",
+    "api_surface": "REST, very broad",
+    "existing_mcp": false,
+    "verdict": "Blocked",
+    "blocker": "Seller account approval + app registration/review gate",
+    "evidence": "https://developer-docs.amazon.com/sp-api/",
+    "confidence": "high"
+  },
+  {
+    "name": "fanbasis",
+    "category": "Ecommerce",
+    "one_liner": "Payments/checkout infrastructure for creators",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": false,
+    "gating": "Sandbox self-serve, but production payouts require account review/KYC and a sales-assisted go-live",
+    "api_surface": "REST, broad (checkout, subscriptions, webhooks)",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Production access gated behind account review; sandbox is open",
+    "evidence": "https://www.fanbasis.com/enterprises",
+    "confidence": "medium"
+  },
+  {
+    "name": "DataForSEO",
+    "category": "Data SEO Scraping",
+    "one_liner": "SEO/SERP data API",
+    "auth": [
+      "Basic (login/password)"
+    ],
+    "self_serve": true,
+    "gating": "Pay-as-you-go self-serve",
+    "api_surface": "REST, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.dataforseo.com/v3/",
+    "confidence": "high"
+  },
+  {
+    "name": "SE Ranking",
+    "category": "Data SEO Scraping",
+    "one_liner": "SEO/rank tracking platform",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": false,
+    "gating": "API access requires a paid plan",
+    "api_surface": "REST, moderate",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "No free API tier, paid plan required",
+    "evidence": "https://seranking.com/api.html",
+    "confidence": "medium"
+  },
+  {
+    "name": "Ahrefs",
+    "category": "Data SEO Scraping",
+    "one_liner": "SEO backlink/keyword research platform",
+    "auth": [
+      "API key (token)"
+    ],
+    "self_serve": false,
+    "gating": "API requires a paid Ahrefs subscription with API credits add-on",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Paid subscription + separate API credit purchase required",
+    "evidence": "https://ahrefs.com/api",
+    "confidence": "high"
+  },
+  {
+    "name": "MrScraper",
+    "category": "Data SEO Scraping",
+    "one_liner": "No-code web scraping API",
+    "auth": [
+      "API key (Bearer)"
+    ],
+    "self_serve": true,
+    "gating": "Free tier with limited tokens, no credit card required; paid tiers from $49/mo",
+    "api_surface": "REST (app.mrscraper.com/api), moderate - AI extraction, screenshots, bulk scraping",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.mrscraper.com/docs/getting-started/overview",
+    "confidence": "high"
+  },
+  {
+    "name": "Apify",
+    "category": "Data SEO Scraping",
+    "one_liner": "Web scraping / automation platform (Actors)",
+    "auth": [
+      "API token"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, very broad (platform + marketplace of scrapers)",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.apify.com/api/v2",
+    "confidence": "high"
+  },
+  {
+    "name": "Firecrawl",
+    "category": "Data SEO Scraping",
+    "one_liner": "LLM-ready web scraping/crawling API",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, moderate",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.firecrawl.dev/",
+    "confidence": "high"
+  },
+  {
+    "name": "Bright Data",
+    "category": "Data SEO Scraping",
+    "one_liner": "Proxy network + scraping infrastructure",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free trial credits self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.brightdata.com/",
+    "confidence": "high"
+  },
+  {
+    "name": "Sherlock",
+    "category": "Data SEO Scraping",
+    "one_liner": "OSS CLI tool to find usernames across sites",
+    "auth": [
+      "None (no hosted API)"
+    ],
+    "self_serve": true,
+    "gating": "Free, open source, runs locally",
+    "api_surface": "No REST API - it's a local CLI/script, not a hosted service",
+    "existing_mcp": false,
+    "verdict": "Blocked",
+    "blocker": "Not a hosted API/toolkit at all - it's a local Python script; would need to be wrapped, not integrated",
+    "evidence": "https://github.com/sherlock-project/sherlock",
+    "confidence": "high"
+  },
+  {
+    "name": "Waterfall.io",
+    "category": "Data SEO Scraping",
+    "one_liner": "Contact/company intelligence tool",
+    "auth": [
+      "API key (x-waterfall-api-key header)"
+    ],
+    "self_serve": true,
+    "gating": "Usage-based pricing, no monthly commitment; trial available, sales-friendly onboarding but not sales-gated to start",
+    "api_surface": "REST (api.waterfall.io/v1) - Prospector, Contact/Phone/Company Enrichment, Email Verification",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://www.waterfall.io/",
+    "confidence": "high"
+  },
+  {
+    "name": "Clay",
+    "category": "Data SEO Scraping",
+    "one_liner": "Data enrichment / outbound automation platform",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": false,
+    "gating": "API access tied to paid plans, no free-tier API key",
+    "api_surface": "REST, moderate",
+    "existing_mcp": true,
+    "verdict": "Ready with friction",
+    "blocker": "No free API access; requires paid Clay plan",
+    "evidence": "https://docs.clay.com/",
+    "confidence": "medium"
+  },
+  {
+    "name": "GitHub",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "Code hosting, CI, and collaboration platform",
+    "auth": [
+      "OAuth2",
+      "API key (PAT)"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST + GraphQL, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.github.com/en/rest",
+    "confidence": "high"
+  },
+  {
+    "name": "Vercel",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "Frontend hosting/deployment platform",
+    "auth": [
+      "API key (Bearer token)",
+      "OAuth2 (integrations)"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://vercel.com/docs/rest-api",
+    "confidence": "high"
+  },
+  {
+    "name": "Netlify",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "Web hosting/deployment platform",
+    "auth": [
+      "OAuth2",
+      "Personal access token"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.netlify.com/api/get-started/",
+    "confidence": "high"
+  },
+  {
+    "name": "Cloudflare",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "CDN, DNS, security, and edge compute platform",
+    "auth": [
+      "API token",
+      "API key (legacy)"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.cloudflare.com/api/",
+    "confidence": "high"
+  },
+  {
+    "name": "Supabase",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "Postgres-based backend-as-a-service",
+    "auth": [
+      "API key",
+      "OAuth2 (management API)"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST + GraphQL (via PostgREST), broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://supabase.com/docs/guides/api",
+    "confidence": "high"
+  },
+  {
+    "name": "Neo4j",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "Graph database",
+    "auth": [
+      "Basic (user/pass)",
+      "Bearer (Aura)"
+    ],
+    "self_serve": true,
+    "gating": "Free AuraDB tier self-serve",
+    "api_surface": "Driver/Bolt protocol + limited REST; not a classic REST API",
+    "existing_mcp": true,
+    "verdict": "Ready with friction",
+    "blocker": "Primary interface is a DB driver protocol, not a typical REST surface - agent tooling needs a driver wrapper",
+    "evidence": "https://neo4j.com/docs/aura/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Snowflake",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "Cloud data warehouse",
+    "auth": [
+      "OAuth2",
+      "Key-pair",
+      "Basic"
+    ],
+    "self_serve": true,
+    "gating": "Free trial self-serve",
+    "api_surface": "SQL API + REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.snowflake.com/en/developer-guide/sql-api/index",
+    "confidence": "high"
+  },
+  {
+    "name": "MongoDB Atlas",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "Managed MongoDB cloud database",
+    "auth": [
+      "API key (HTTP Digest)"
+    ],
+    "self_serve": true,
+    "gating": "Free M0 tier self-serve",
+    "api_surface": "REST (Atlas Admin API), broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://www.mongodb.com/docs/atlas/api/atlas-admin-api-ref/",
+    "confidence": "high"
+  },
+  {
+    "name": "Datadog",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "Observability/monitoring platform",
+    "auth": [
+      "API key + App key"
+    ],
+    "self_serve": true,
+    "gating": "Free trial self-serve",
+    "api_surface": "REST, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.datadoghq.com/api/latest/",
+    "confidence": "high"
+  },
+  {
+    "name": "Sentry",
+    "category": "Dev Infra Data platforms",
+    "one_liner": "Error tracking and performance monitoring",
+    "auth": [
+      "API token (Bearer)",
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.sentry.io/api/",
+    "confidence": "high"
+  },
+  {
+    "name": "Notion",
+    "category": "Productivity and PM",
+    "one_liner": "Docs/wiki/database workspace",
+    "auth": [
+      "OAuth2",
+      "API key (internal integration token)"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, moderate-broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.notion.com/reference/intro",
+    "confidence": "high"
+  },
+  {
+    "name": "Airtable",
+    "category": "Productivity and PM",
+    "one_liner": "Spreadsheet-database hybrid",
+    "auth": [
+      "OAuth2",
+      "Personal access token"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://airtable.com/developers/web/api/introduction",
+    "confidence": "high"
+  },
+  {
+    "name": "Linear",
+    "category": "Productivity and PM",
+    "one_liner": "Issue tracking for software teams",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "GraphQL, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.linear.app/docs",
+    "confidence": "high"
+  },
+  {
+    "name": "Jira",
+    "category": "Productivity and PM",
+    "one_liner": "Issue tracking / project management (Atlassian)",
+    "auth": [
+      "OAuth2",
+      "API token (Basic)"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/",
+    "confidence": "high"
+  },
+  {
+    "name": "Asana",
+    "category": "Productivity and PM",
+    "one_liner": "Task/project management platform",
+    "auth": [
+      "OAuth2",
+      "Personal access token"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.asana.com/docs",
+    "confidence": "high"
+  },
+  {
+    "name": "Monday.com",
+    "category": "Productivity and PM",
+    "one_liner": "Work OS / project management platform",
+    "auth": [
+      "OAuth2",
+      "API token"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "GraphQL, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.monday.com/api-reference/docs",
+    "confidence": "high"
+  },
+  {
+    "name": "ClickUp",
+    "category": "Productivity and PM",
+    "one_liner": "All-in-one productivity/PM platform",
+    "auth": [
+      "OAuth2",
+      "API token"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.clickup.com/docs",
+    "confidence": "high"
+  },
+  {
+    "name": "Coda",
+    "category": "Productivity and PM",
+    "one_liner": "Docs that work like apps",
+    "auth": [
+      "API token"
+    ],
+    "self_serve": true,
+    "gating": "Free tier self-serve",
+    "api_surface": "REST, moderate",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://coda.io/developers/apis/v1",
+    "confidence": "high"
+  },
+  {
+    "name": "Smartsheet",
+    "category": "Productivity and PM",
+    "one_liner": "Spreadsheet-based work management",
+    "auth": [
+      "OAuth2",
+      "API token"
+    ],
+    "self_serve": true,
+    "gating": "30-day free trial",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developers.smartsheet.com/api/smartsheet",
+    "confidence": "high"
+  },
+  {
+    "name": "Harvest",
+    "category": "Productivity and PM",
+    "one_liner": "Time tracking and invoicing",
+    "auth": [
+      "OAuth2",
+      "Personal access token"
+    ],
+    "self_serve": true,
+    "gating": "Free trial self-serve",
+    "api_surface": "REST, moderate",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://help.getharvest.com/api-v2/",
+    "confidence": "high"
+  },
+  {
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "one_liner": "Payments infrastructure",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "Free self-serve, test mode instant",
+    "api_surface": "REST, very broad",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.stripe.com/api",
+    "confidence": "high"
+  },
+  {
+    "name": "Plaid",
+    "category": "Finance and Fintech",
+    "one_liner": "Bank account connectivity/financial data API",
+    "auth": [
+      "API key (client_id/secret)"
+    ],
+    "self_serve": true,
+    "gating": "Sandbox self-serve free; Production requires application review",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Production access requires Plaid's approval process",
+    "evidence": "https://plaid.com/docs/",
+    "confidence": "high"
+  },
+  {
+    "name": "Binance",
+    "category": "Finance and Fintech",
+    "one_liner": "Crypto exchange trading API",
+    "auth": [
+      "API key + secret"
+    ],
+    "self_serve": true,
+    "gating": "Free self-serve, KYC required for full trading limits",
+    "api_surface": "REST + WebSocket, very broad",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Full trading access requires identity verification",
+    "evidence": "https://binance-docs.github.io/apidocs/",
+    "confidence": "high"
+  },
+  {
+    "name": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "one_liner": "Payment gateway integration (NMI-powered)",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": false,
+    "gating": "Payment processing product, requires merchant account setup / partner onboarding",
+    "api_surface": "REST, moderate (NMI-style gateway API)",
+    "existing_mcp": false,
+    "verdict": "Blocked",
+    "blocker": "No public self-serve signup found; merchant onboarding required, low visibility into public docs",
+    "evidence": "https://paygentconnect.com",
+    "confidence": "low"
+  },
+  {
+    "name": "iPayX",
+    "category": "Finance and Fintech",
+    "one_liner": "AI-oriented payments API",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": false,
+    "gating": "Narrow B2B FX-audit product (not a generic payment gateway - distinct from unrelated 'iPay' gateways in Africa/elsewhere); has a public MCP server, but no visible public self-serve signup/pricing page",
+    "api_surface": "Narrow, FX-forensic-audit focused; official 'iPayX FX Audit MCP Server' listed in MCP directories",
+    "existing_mcp": true,
+    "verdict": "Ready with friction",
+    "blocker": "No public self-serve pricing/signup found; likely requires direct contact despite the MCP server existing",
+    "evidence": "https://mcpservers.org/servers/ipayx-technologies/mcp-fx-audit",
+    "confidence": "medium"
+  },
+  {
+    "name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "one_liner": "Small-business accounting software (Intuit)",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Free sandbox self-serve; production app requires Intuit review",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "Production/public app listing requires Intuit's app review",
+    "evidence": "https://developer.intuit.com/app/developer/qbo/docs/get-started",
+    "confidence": "high"
+  },
+  {
+    "name": "Xero",
+    "category": "Finance and Fintech",
+    "one_liner": "Cloud accounting software",
+    "auth": [
+      "OAuth2"
+    ],
+    "self_serve": true,
+    "gating": "Free demo company self-serve for dev",
+    "api_surface": "REST, broad",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://developer.xero.com/documentation/",
+    "confidence": "high"
+  },
+  {
+    "name": "Brex",
+    "category": "Finance and Fintech",
+    "one_liner": "Corporate cards and spend management",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": false,
+    "gating": "Requires an existing Brex business account",
+    "api_surface": "REST, moderate-broad",
+    "existing_mcp": false,
+    "verdict": "Blocked",
+    "blocker": "No API access without an active Brex corporate account (business-only product)",
+    "evidence": "https://developer.brex.com/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Ramp",
+    "category": "Finance and Fintech",
+    "one_liner": "Corporate cards and spend management",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": false,
+    "gating": "Requires an existing Ramp business account",
+    "api_surface": "REST, broad",
+    "existing_mcp": true,
+    "verdict": "Blocked",
+    "blocker": "No API access without an active Ramp corporate account",
+    "evidence": "https://docs.ramp.com/",
+    "confidence": "medium"
+  },
+  {
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "one_liner": "Private market financial data/research platform",
+    "auth": [
+      "Not publicly documented (enterprise)"
+    ],
+    "self_serve": false,
+    "gating": "Contact-sales enterprise data product, no public API signup",
+    "api_surface": "Unknown publicly; data delivered via Excel plugin/exports for most customers",
+    "existing_mcp": false,
+    "verdict": "Blocked",
+    "blocker": "No self-serve or public API docs found; enterprise sales-gated",
+    "evidence": "https://pitchbook.com/",
+    "confidence": "medium"
+  },
+  {
+    "name": "NotebookLM",
+    "category": "AI Research Media",
+    "one_liner": "Google's AI research/notebook assistant",
+    "auth": [
+      "OAuth2 (Gemini Enterprise API, separate product)"
+    ],
+    "self_serve": false,
+    "gating": "Consumer NotebookLM has no public API; only the separate Gemini Enterprise API is programmable",
+    "api_surface": "No public REST API for NotebookLM itself",
+    "existing_mcp": false,
+    "verdict": "Blocked",
+    "blocker": "The product as branded has no developer API; would need to use Gemini Enterprise instead, which is a different product",
+    "evidence": "https://cloud.google.com/gemini",
+    "confidence": "medium"
+  },
+  {
+    "name": "Otter AI",
+    "category": "AI Research Media",
+    "one_liner": "AI meeting transcription and notes",
+    "auth": [
+      "OAuth2 (MCP only)"
+    ],
+    "self_serve": false,
+    "gating": "No public API key program at all ('we currently do not have a public API key at this time'); official MCP server exists but is gated to Business/Enterprise workspaces with admin provisioning",
+    "api_surface": "No public REST API; MCP server (mcp.otter.ai) is the only sanctioned programmatic access, OAuth-authenticated",
+    "existing_mcp": true,
+    "verdict": "Blocked",
+    "blocker": "No public API key issuance; MCP access requires an Otter Business/Enterprise plan and admin setup",
+    "evidence": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+    "confidence": "high"
+  },
+  {
+    "name": "Fathom",
+    "category": "AI Research Media",
+    "one_liner": "AI meeting recorder and notetaker",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "API available on paid Team plans",
+    "api_surface": "REST, narrow (recordings, summaries, webhooks)",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "API gated behind a paid plan tier",
+    "evidence": "https://fathom.video/",
+    "confidence": "medium"
+  },
+  {
+    "name": "Consensus",
+    "category": "AI Research Media",
+    "one_liner": "AI search engine for scientific research papers",
+    "auth": [
+      "API key (Bearer)",
+      "OAuth2 (MCP)"
+    ],
+    "self_serve": true,
+    "gating": "Free developer account self-serve for the quick_search API (rate-limited); unlimited/enterprise volume requires contact-sales",
+    "api_surface": "REST (api.consensus.app/v1/quick_search) + official MCP server (mcp.consensus.app)",
+    "existing_mcp": true,
+    "verdict": "Ready with friction",
+    "blocker": "Free tier is rate-limited; meaningful production volume needs an enterprise conversation",
+    "evidence": "https://docs.consensus.app/",
+    "confidence": "high"
+  },
+  {
+    "name": "Reducto",
+    "category": "AI Research Media",
+    "one_liner": "Document parsing/extraction API for AI pipelines",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": true,
+    "gating": "15,000 free credits on Standard (pay-as-you-go) tier, instant signup",
+    "api_surface": "REST, moderate-broad (Parse/Extract/Split/Edit/Classify); has an official MCP server (mcp-server-reducto)",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://docs.reducto.ai/quickstart",
+    "confidence": "high"
+  },
+  {
+    "name": "Devin",
+    "category": "AI Research Media",
+    "one_liner": "Autonomous AI software engineer agent",
+    "auth": [
+      "API key"
+    ],
+    "self_serve": false,
+    "gating": "Requires a paid Devin subscription",
+    "api_surface": "REST, moderate; has an official MCP server",
+    "existing_mcp": true,
+    "verdict": "Ready with friction",
+    "blocker": "No free tier; API access tied to paid seats",
+    "evidence": "https://docs.devin.ai/",
+    "confidence": "medium"
+  },
+  {
+    "name": "higgsfield",
+    "category": "AI Research Media",
+    "one_liner": "AI video/content generation suite with a CLI",
+    "auth": [
+      "API key (Bearer)"
+    ],
+    "self_serve": true,
+    "gating": "Free tier for testing via cloud.higgsfield.ai signup, paid plans for production volume",
+    "api_surface": "REST, moderate; official Python SDK (higgsfield-ai/higgsfield-client) on GitHub",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://github.com/higgsfield-ai/higgsfield-client",
+    "confidence": "high"
+  },
+  {
+    "name": "Mermaid CLI",
+    "category": "AI Research Media",
+    "one_liner": "CLI to render Mermaid diagrams to images",
+    "auth": [
+      "None"
+    ],
+    "self_serve": true,
+    "gating": "Free, open source, runs locally",
+    "api_surface": "No REST API - local CLI tool only",
+    "existing_mcp": false,
+    "verdict": "Ready today",
+    "blocker": "Not a network API - toolkit would wrap local CLI execution rather than call a hosted service",
+    "evidence": "https://github.com/mermaid-js/mermaid-cli",
+    "confidence": "high"
+  },
+  {
+    "name": "YouTube Transcript",
+    "category": "AI Research Media",
+    "one_liner": "Third-party API to fetch YouTube video transcripts",
+    "auth": [
+      "API key (Bearer)"
+    ],
+    "self_serve": true,
+    "gating": "100 free credits self-serve, no card required; paid from $5/mo",
+    "api_surface": "REST (transcriptapi.com/api/v2) - transcripts, search, channels, playlists; official MCP server",
+    "existing_mcp": true,
+    "verdict": "Ready today",
+    "blocker": null,
+    "evidence": "https://transcriptapi.com/",
+    "confidence": "high"
+  },
+  {
+    "name": "Grain",
+    "category": "AI Research Media",
+    "one_liner": "AI meeting recording and highlight reels",
+    "auth": [
+      "OAuth2",
+      "API key"
+    ],
+    "self_serve": false,
+    "gating": "API access gated behind paid Business plan",
+    "api_surface": "REST, moderate",
+    "existing_mcp": false,
+    "verdict": "Ready with friction",
+    "blocker": "API only available on paid tiers, not free plan",
+    "evidence": "https://grain.com/",
+    "confidence": "medium"
+  }
+]

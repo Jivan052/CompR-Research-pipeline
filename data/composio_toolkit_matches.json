@@ -1,0 +1,643 @@
+{
+  "Salesforce": {
+    "slug": "salesforce",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "HubSpot": {
+    "slug": "hubspot",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Pipedrive": {
+    "slug": "pipedrive",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Attio": {
+    "slug": "attio",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Twenty": {
+    "exists_in_composio": false
+  },
+  "Podio": {
+    "exists_in_composio": false
+  },
+  "Zoho CRM": {
+    "exists_in_composio": false
+  },
+  "Close": {
+    "slug": "close",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Copper": {
+    "exists_in_composio": false
+  },
+  "DealCloud": {
+    "exists_in_composio": false
+  },
+  "Zendesk": {
+    "slug": "zendesk",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Intercom": {
+    "slug": "intercom",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Freshdesk": {
+    "slug": "freshdesk",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Front": {
+    "slug": "front",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Pylon": {
+    "exists_in_composio": false
+  },
+  "LiveAgent": {
+    "exists_in_composio": false
+  },
+  "Plain": {
+    "slug": "plain",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Help Scout": {
+    "slug": "help_scout",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Gorgias": {
+    "slug": "gorgias",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Gladly": {
+    "exists_in_composio": false
+  },
+  "Slack": {
+    "slug": "slack",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Twilio": {
+    "exists_in_composio": false
+  },
+  "Zoho Cliq": {
+    "exists_in_composio": false
+  },
+  "Lark (Larksuite)": {
+    "exists_in_composio": false
+  },
+  "Pumble": {
+    "exists_in_composio": false
+  },
+  "Discord": {
+    "slug": "discord",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Telegram": {
+    "slug": "telegram",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "WhatsApp Business": {
+    "slug": "whatsapp",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Aircall": {
+    "exists_in_composio": false
+  },
+  "Vonage": {
+    "exists_in_composio": false
+  },
+  "Google Ads": {
+    "slug": "googleads",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Meta Ads": {
+    "slug": "metaads",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "LinkedIn Ads": {
+    "slug": "linkedin",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "GoHighLevel": {
+    "exists_in_composio": false
+  },
+  "Mailchimp": {
+    "slug": "mailchimp",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Klaviyo": {
+    "slug": "klaviyo",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "systeme.io": {
+    "exists_in_composio": false
+  },
+  "Pinterest": {
+    "exists_in_composio": false
+  },
+  "Threads (Meta)": {
+    "exists_in_composio": false
+  },
+  "SendGrid": {
+    "slug": "sendgrid",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Shopify": {
+    "slug": "shopify",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY",
+      "S2S_OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "WooCommerce": {
+    "exists_in_composio": false
+  },
+  "BigCommerce": {
+    "exists_in_composio": false
+  },
+  "Salesforce Commerce Cloud": {
+    "slug": "salesforce",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "S2S_OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Magento (Adobe Commerce)": {
+    "exists_in_composio": false
+  },
+  "Squarespace": {
+    "exists_in_composio": false
+  },
+  "Ecwid": {
+    "exists_in_composio": false
+  },
+  "Gumroad": {
+    "slug": "gumroad",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Amazon Selling Partner": {
+    "exists_in_composio": false
+  },
+  "fanbasis": {
+    "exists_in_composio": false
+  },
+  "DataForSEO": {
+    "slug": "dataforseo",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "BASIC"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "SE Ranking": {
+    "exists_in_composio": false
+  },
+  "Ahrefs": {
+    "slug": "ahrefs",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "MrScraper": {
+    "exists_in_composio": false
+  },
+  "Apify": {
+    "slug": "apify",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Firecrawl": {
+    "slug": "firecrawl",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Bright Data": {
+    "slug": "brightdata",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Sherlock": {
+    "exists_in_composio": false
+  },
+  "Waterfall.io": {
+    "exists_in_composio": false
+  },
+  "Clay": {
+    "exists_in_composio": false
+  },
+  "GitHub": {
+    "slug": "github",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Vercel": {
+    "slug": "vercel",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Netlify": {
+    "exists_in_composio": false
+  },
+  "Cloudflare": {
+    "slug": "cloudflare",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Supabase": {
+    "slug": "supabase",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Neo4j": {
+    "slug": "neo4j",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY",
+      "S2S_OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Snowflake": {
+    "slug": "snowflake",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "MongoDB Atlas": {
+    "exists_in_composio": false
+  },
+  "Datadog": {
+    "slug": "datadog",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Sentry": {
+    "slug": "sentry",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Notion": {
+    "slug": "notion",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Airtable": {
+    "slug": "airtable",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Linear": {
+    "slug": "linear",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Jira": {
+    "slug": "jira",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY",
+      "S2S_OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Asana": {
+    "slug": "asana",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Monday.com": {
+    "exists_in_composio": false
+  },
+  "ClickUp": {
+    "slug": "clickup",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Coda": {
+    "slug": "coda",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Smartsheet": {
+    "exists_in_composio": false
+  },
+  "Harvest": {
+    "slug": "harvest",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Stripe": {
+    "slug": "stripe",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Plaid": {
+    "exists_in_composio": false
+  },
+  "Binance": {
+    "exists_in_composio": false
+  },
+  "Paygent Connect": {
+    "exists_in_composio": false
+  },
+  "iPayX": {
+    "exists_in_composio": false
+  },
+  "QuickBooks": {
+    "slug": "quickbooks",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Xero": {
+    "slug": "xero",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Brex": {
+    "slug": "brex",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Ramp": {
+    "slug": "ramp",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "PitchBook": {
+    "exists_in_composio": false
+  },
+  "NotebookLM": {
+    "exists_in_composio": false
+  },
+  "Otter AI": {
+    "exists_in_composio": false
+  },
+  "Fathom": {
+    "slug": "fathom",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2",
+      "API_KEY"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Consensus": {
+    "exists_in_composio": false
+  },
+  "Reducto": {
+    "exists_in_composio": false
+  },
+  "Devin": {
+    "exists_in_composio": false
+  },
+  "higgsfield": {
+    "exists_in_composio": false
+  },
+  "Mermaid CLI": {
+    "exists_in_composio": false
+  },
+  "YouTube Transcript": {
+    "slug": "youtube",
+    "exists_in_composio": true,
+    "auth_schemes": [
+      "OAUTH2"
+    ],
+    "category": null,
+    "tool_count": 0
+  },
+  "Grain": {
+    "exists_in_composio": false
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "auth_combos": {
+    "OAuth2": 21,
+    "API key/token + OAuth2": 33,
+    "API key/token": 33,
+    "API key/token + Basic": 4,
+    "API key/token + Basic + OAuth2": 3,
+    "Basic": 2,
+    "No hosted API": 2,
+    "Basic + OAuth2": 1,
+    "Undocumented": 1
+  },
+  "self_serve": {
+    "True": 78,
+    "False": 22
+  },
+  "verdict": {
+    "Ready today": 65,
+    "Ready with friction": 23,
+    "Blocked": 12
+  },
+  "mcp": {
+    "True": 48,
+    "False": 52
+  },
+  "confidence": {
+    "high": 70,
+    "medium": 28,
+    "low": 2
+  },
+  "category_stats": {
+    "CRM and Sales": {
+      "total": 10,
+      "self_serve": 9,
+      "ready": 8,
+      "mcp": 7
+    },
+    "Support and Helpdesk": {
+      "total": 10,
+      "self_serve": 9,
+      "ready": 8,
+      "mcp": 3
+    },
+    "Communications and Messaging": {
+      "total": 10,
+      "self_serve": 9,
+      "ready": 8,
+      "mcp": 6
+    },
+    "Marketing Ads Email Social": {
+      "total": 10,
+      "self_serve": 6,
+      "ready": 5,
+      "mcp": 2
+    },
+    "Ecommerce": {
+      "total": 10,
+      "self_serve": 7,
+      "ready": 5,
+      "mcp": 1
+    },
+    "Data SEO Scraping": {
+      "total": 10,
+      "self_serve": 7,
+      "ready": 6,
+      "mcp": 5
+    },
+    "Dev Infra Data platforms": {
+      "total": 10,
+      "self_serve": 10,
+      "ready": 9,
+      "mcp": 9
+    },
+    "Productivity and PM": {
+      "total": 10,
+      "self_serve": 10,
+      "ready": 10,
+      "mcp": 7
+    },
+    "Finance and Fintech": {
+      "total": 10,
+      "self_serve": 5,
+      "ready": 2,
+      "mcp": 3
+    },
+    "AI Research Media": {
+      "total": 10,
+      "self_serve": 6,
+      "ready": 4,
+      "mcp": 5
+    }
+  },
+  "blocker_reasons": {
+    "Other": 5,
+    "Enterprise contact-sales gate": 6,
+    "App/developer review or approval gate": 9,
+    "API locked behind paid plan tier": 10,
+    "Not actually a hosted API (local tool/script)": 3,
+    "No public docs findable": 1,
+    "Requires existing paid/business account": 2
+  }
+}
