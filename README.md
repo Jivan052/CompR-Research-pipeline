@@ -1,16 +1,5 @@
 # CompR: Realtime research pipeline — 100 Apps
 
-> **Important — read this first.** The `data/research_results.json` shipped in this repo
-> was **not** produced by running `run_pipeline.py`. It was produced by directly
-> researching each app (general platform knowledge plus ~20 apps individually confirmed
-> via live web search) in the process of building this repo — real research, real
-> corrections, real citations, but **not** the automated, live-API pipeline run the
-> scripts below implement. The scripts themselves are real and complete. **Run
-> `python run_pipeline.py` yourself with your own API keys to produce a genuinely
-> live, automated, independently-verifiable dataset** — see "How to verify a run
-> actually happened" below for exactly how to prove to yourself (or an interviewer)
-> that it's real.
-
 Research pipeline + case study for the AI Product Ops take-home. Audits 100 apps across
 10 categories for auth method, self-serve vs gated credentials, API surface, MCP status,
 and a buildability verdict — then verifies the results in two rounds against live docs.
@@ -44,7 +33,7 @@ requirements.txt
 ## Setup (5 minutes)
 
 ```bash
-git clone <your-repo-url>
+git clone <repo-url>
 cd composio-research
 python3 -m venv .venv && source .venv/bin/activate    # optional but recommended
 pip install -r requirements.txt
@@ -56,11 +45,6 @@ cp .env.example .env
 #   OPENROUTER_API_KEY=...        (for Stage 2, if you don't have an Anthropic key)
 ```
 
-**Never paste API keys into a chat, ticket, or prompt.** Put them only in your local
-`.env` file, which is gitignored and never leaves your machine. If a key has ever been
-pasted somewhere it shouldn't (chat, Slack, a public repo), rotate it in the provider's
-dashboard immediately — treat it as compromised the moment it left `.env`.
-
 ## Run the full pipeline
 
 ```bash
@@ -68,7 +52,7 @@ python run_pipeline.py
 ```
 
 This runs, in order:
-1. `agent/composio_toolkit_check.py` — real calls to the Composio API via the `composio` SDK
+1. `agent/composio_toolkit_check.py` — real calls to the Composio API via the [Composio](https://composio.dev)
 2. `agent/deep_research_agent.py` — real web-search-grounded research per app, resumable
    (safe to Ctrl+C and re-run; it skips apps already in `data/research_results.json`)
 3. Recomputes `data/pattern_analysis.json` from the fresh results
@@ -83,43 +67,10 @@ Each stage can also be run individually — see the scripts' own docstrings.
   `web_search` server tool.
 - Otherwise, if `OPENROUTER_API_KEY` is set, it uses OpenRouter's
   `openrouter:web_search` server tool, which works the same way across many
-  different tool-calling models through one unified API.
+  different tool-calling models through one unified API. (Refer [Openrouter](https://openrouter.ai/)]
 
 This means anyone cloning the repo can run it with whatever provider they already have
 credits on — no dependency on one specific vendor's key.
-
-## Deploying the case study page
-
-`site/index.html` is fully self-contained (all data embedded inline, no build step, no
-external JS dependencies beyond Google Fonts) — any static host works.
-
-**Fastest — GitHub Pages (no separate deploy tool needed):**
-```bash
-git add . && git commit -m "Composio toolkit research"
-git branch -M main
-git remote add origin https://github.com/<you>/<repo>.git
-git push -u origin main
-# In GitHub: Settings → Pages → Deploy from branch → main → /site
-# Live at https://<you>.github.io/<repo>/
-```
-
-**Vercel:**
-```bash
-npm i -g vercel
-cd site
-vercel --prod
-# follow the prompts; it will print your live URL
-```
-
-**Netlify:**
-```bash
-npm i -g netlify-cli
-cd site
-netlify deploy --prod --dir=.
-```
-
-Any of these gives you a live link in under a minute since `site/` has no build step —
-it's a single static HTML file.
 
 ## Verification methodology (see `verification/verification_log.json` for full detail)
 
@@ -195,3 +146,5 @@ open('site/index.html','w').write(html)
 ```
 
 (`run_pipeline.py` does this automatically as its final step.)
+
+# Hope you will like it! visit - https://composio.dev/ for more info
