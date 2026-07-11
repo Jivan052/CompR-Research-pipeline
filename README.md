@@ -1,4 +1,4 @@
-# CompR: Realtime research pipeline — 100 Apps
+# CompR: Research pipeline — 100 Apps
 
 Research pipeline + case study for the AI Product Ops take-home. Audits 100 apps across
 10 categories for auth method, self-serve vs gated credentials, API surface, MCP status,
