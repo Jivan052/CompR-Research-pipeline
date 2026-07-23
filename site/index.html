@@ -347,8 +347,6 @@ resp = client.messages.create(model="claude-sonnet-4-6",<br>
 requests.post("https://openrouter.ai/api/v1/chat/completions", json={<br>
 &nbsp;&nbsp;"model": "anthropic/claude-sonnet-4.5",<br>
 &nbsp;&nbsp;"tools": [{"type": "openrouter:web_search"}], ...})</div>
-    <p style="font-size:13px; color:var(--text-dim); margin-top:-4px;">Both keys are read only from environment variables (<code>.env</code>, gitignored) — never hardcoded, never passed through chat. Anyone cloning the repo runs it with whichever provider they already have credits on.</p>
-
     <div class="honesty">
       <h4>Where the agent needed a human</h4>
       <ul>
